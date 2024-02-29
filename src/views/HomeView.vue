@@ -13,7 +13,7 @@ export default {
   },
   created() {
     console.log('Hook: created');
-    console.log();
+    console.log(123);
   },
   beforeMount() {
     console.log('Hook: beforeMount');
